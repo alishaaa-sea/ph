@@ -1,9 +1,9 @@
 const messages = [
-    { title: "Halloo", text: "Selamat datang", emoji: "🌟" },
-    { title: "Did you know?", text: "You have a smile that can light up a room!", emoji: "😊" },
-    { title: "Wow!", text: "You are doing great today, keep it up!", emoji: "🎈" },
-    { title: "Surprise!", text: "Here is a virtual hug for you!", emoji: "🫂" },
-    { title: "Yay!", text: "Never forget how awesome you are!", emoji: "✨" }
+    { title: "HAI HAI HALOO", text: "Acha, Maida, Rizqa, Zaza, Haura", emoji: "🌟" },
+    { text: "Terima kasih sudah menjadi bagian dari PH untuk periode ini yaa:3 ", emoji: "😊" },
+    { text: "Satu periode ini mungkin nggak akan selalu mudah, tapi kalau kita jalanin bareng-bareng, kita pasti bisa ngelewatin itu semua.", emoji: "🫂" },
+    { text: "Jangan pernah ngerasa sendirian juga, 'cause you’ll always have me and the whole PH team too.", emoji: "🎈" },
+    { title: "AND", text: "Just let me know if you guys need any help ya, anything, anytime, and anywhere!", emoji: "✨🫂" }
 
 ];
 
@@ -19,16 +19,8 @@ const modalEmoji = document.getElementById('modal-emoji');
 
 let currentMessageIndex = -1;
 
-function getRandomMessageIndex() {
-    let newIndex;
-    do {
-        newIndex = Math.floor(Math.random() * messages.length);
-    } while (newIndex === currentMessageIndex && messages.length > 1);
-    return newIndex;
-}
-
 function showMessage() {
-    currentMessageIndex = getRandomMessageIndex();
+    currentMessageIndex = (currentMessageIndex + 1) % messages.length;
     const msg = messages[currentMessageIndex];
 
     modalTitle.textContent = msg.title;

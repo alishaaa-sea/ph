@@ -304,3 +304,82 @@ body {
     z-index: 1000;
     pointer-events: none;
 }
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .container {
+        padding: 30px 20px;
+        max-width: 95%;
+    }
+
+    .main-title {
+        font-size: 2rem;
+    }
+
+    .subtitle {
+        font-size: 1rem;
+    }
+
+    .cute-btn {
+        padding: 12px 25px;
+        font-size: 1rem;
+    }
+
+    .modal-content {
+        padding: 30px 20px;
+        width: 92%;
+    }
+
+    .modal-title {
+        font-size: 1.6rem;
+    }
+
+    .emoji {
+        font-size: 3rem;
+    }
+
+    .modal-text {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .main-title {
+        font-size: 1.5rem;
+    }
+
+    .shape {
+        transform: scale(0.6);
+        opacity: 0.4;
+    }
+
+    .circle-1 {
+        width: 60px;
+        height: 60px;
+    }
+
+    .circle-2 {
+        width: 90px;
+        height: 90px;
+    }
+
+    .star-1 {
+        font-size: 25px;
+        top: 10%;
+        right: 10%;
+    }
+
+    .star-2 {
+        font-size: 20px;
+        left: 5%;
+        bottom: 20%;
+    }
+
+    .cloud-1 {
+        font-size: 40px;
+    }
+
+    .cloud-2 {
+        font-size: 50px;
+    }
+}

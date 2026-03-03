@@ -1,12 +1,10 @@
 const messages = [
-    { title: "Hello!", text: "You are absolutely amazing!", emoji: "🌟" },
+    { title: "Halloo", text: "Selamat datang", emoji: "🌟" },
     { title: "Did you know?", text: "You have a smile that can light up a room!", emoji: "😊" },
     { title: "Wow!", text: "You are doing great today, keep it up!", emoji: "🎈" },
     { title: "Surprise!", text: "Here is a virtual hug for you!", emoji: "🫂" },
-    { title: "Yay!", text: "Never forget how awesome you are!", emoji: "✨" },
-    { title: "A Secret...", text: "You are capable of doing wonderful things!", emoji: "🚀" },
-    { title: "Awesome!", text: "Being kind makes you super cool!", emoji: "😎" },
-    { title: "Look!", text: "There's a dinosaur saying hello!", emoji: "🦖" }
+    { title: "Yay!", text: "Never forget how awesome you are!", emoji: "✨" }
+
 ];
 
 const modalBg = document.getElementById('modal-bg');

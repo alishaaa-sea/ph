@@ -3,7 +3,7 @@ const messages = [
     { text: "Terima kasih sudah menjadi bagian dari PH untuk periode ini yaa:3 ", emoji: "😊" },
     { text: "Satu periode ini mungkin nggak akan selalu mudah, tapi kalau kita jalanin bareng-bareng, kita pasti bisa ngelewatin itu semua.", emoji: "🫂" },
     { text: "Jangan pernah ngerasa sendirian juga, 'cause you’ll always have me and the whole PH team too.", emoji: "🎈" },
-    { title: "AND", text: "Just let me know if you guys need any help ya, anything, anytime, and anywhere!", emoji: "✨🫂" }
+    { title: "AND", text: "Just let me know if you guys need any help, anything, anytime, and anywhere!", emoji: "✨🫂" }
 
 ];
 
